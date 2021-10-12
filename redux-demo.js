@@ -3,7 +3,7 @@ const redux = require("redux");
 // store initial value
 const counterInitialValue = { counter: 0 };
 
-// define reducer which manages the logic according to thereceived actions
+// define reducer which manages the logic according to the received actions
 const counterReducer = (state = counterInitialValue, action) => {
 	if (action.type === "increment") {
 		return {
